@@ -1,0 +1,193 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unsere Klassengalerie ♡</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;600;700;800&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="navbar">
+    <a href="#" class="logo">
+        <span class="camera">📸</span>
+        <span>
+            <strong>Unsere Klassengalerie</strong>
+            <small>Kleine Momente, große Erinnerungen</small>
+        </span>
+    </a>
+
+    <button class="menu-toggle" aria-label="Menü öffnen">☰</button>
+
+    <nav class="nav-links">
+        <a href="#start">Startseite</a>
+        <a href="#galerie">Galerie</a>
+        <a href="#ueber-uns">Über uns</a>
+        <span class="signature">Made with <b>♥</b> by Donia</span>
+    </nav>
+</header>
+
+<section class="hero" id="start">
+    <div class="hero-content">
+        <span class="eyebrow">✿ WILLKOMMEN IN UNSERER KLEINEN WELT</span>
+
+        <h1>
+            Ein Jahr voller<br>
+            <em>schöner Momente!</em>
+        </h1>
+
+        <p>
+            Hier sammeln wir Lachen, Abenteuer und all die
+            kleinen Augenblicke, die unseren Klassenalltag
+            so besonders machen.
+        </p>
+
+        <a href="#galerie" class="main-btn">
+            Momente entdecken ↓
+        </a>
+    </div>
+
+    <div class="hero-picture">
+        <div class="polaroid">
+            <img src="images/WhatsApp Image 2026-11-10 at 10.35.52 AM (1).jpeg" alt="Unser Klassenfoto">
+            <p>So viel Spaß! ♡</p>
+        </div>
+        <span class="heart-decoration">♡</span>
+        <span class="star">✦</span>
+    </div>
+</section>
+
+<section class="gallery" id="galerie">
+
+    <div class="section-heading">
+        <div>
+            <span class="eyebrow">UNSERE ERINNERUNGEN</span>
+            <h2>Die schönsten <em>Augenblicke</em></h2>
+        </div>
+        <p>Jedes Bild erzählt eine kleine Geschichte. ♡</p>
+    </div>
+
+    <div class="filters">
+        <button class="filter active" data-filter="alle">Alle Bilder</button>
+        <button class="filter" data-filter="ausflug">Ausflüge</button>
+        <button class="filter" data-filter="kreativ">Kreativzeit</button>
+        <button class="filter" data-filter="alltag">Unser Alltag</button>
+    </div>
+
+    <div class="gallery-grid">
+
+        <article class="photo-card" data-category="alltag">
+            <button class="photo-open">
+                <img src="images/WhatsApp Image 2026-11-10 at 10.35.52 AM (2).jpeg" alt="Ein Tag voller Lachen">
+            </button>
+            <div class="photo-info">
+                <div>
+                    <small>UNSER ALLTAG</small>
+                    <h3>Ein Tag voller Lachen</h3>
+                </div>
+                <button class="like" aria-label="Gefällt mir">♡</button>
+            </div>
+        </article>
+
+        <article class="photo-card tilt-left" data-category="ausflug">
+            <button class="photo-open">
+                <img src="images/WhatsApp Image 2026-11-10 at 10.35.52 AM (3).jpeg" alt="Unser gemeinsamer Ausflug">
+            </button>
+            <div class="photo-info">
+                <div>
+                    <small>AUSFLÜGE</small>
+                    <h3>Gemeinsam unterwegs</h3>
+                </div>
+                <button class="like" aria-label="Gefällt mir">♡</button>
+            </div>
+        </article>
+
+        <article class="photo-card" data-category="kreativ">
+            <button class="photo-open">
+                <img src="images/WhatsApp Image 2026-11-10 at 10.35.52 AM (4).jpeg" alt="Unsere kleinen Künstler">
+            </button>
+            <div class="photo-info">
+                <div>
+                    <small>KREATIVZEIT</small>
+                    <h3>Kleine Künstler ganz groß</h3>
+                </div>
+                <button class="like" aria-label="Gefällt mir">♡</button>
+            </div>
+        </article>
+
+        <article class="photo-card tilt-right" data-category="alltag">
+            <button class="photo-open">
+                <img src="images/WhatsApp Image 2026-11-10 at 10.35.52 AM (5).jpeg" alt="Zusammen spielen">
+            </button>
+            <div class="photo-info">
+                <div>
+                    <small>UNSER ALLTAG</small>
+                    <h3>Zusammen ist es schöner</h3>
+                </div>
+                <button class="like" aria-label="Gefällt mir">♡</button>
+            </div>
+        </article>
+
+        <article class="photo-card tilt-left" data-category="kreativ">
+            <button class="photo-open">
+                <img src="images/WhatsApp Image 2026-11-10 at 10.35.52 AM (6).jpeg" alt="Bunte Bastelideen">
+            </button>
+            <div class="photo-info">
+                <div>
+                    <small>KREATIVZEIT</small>
+                    <h3>Farben, Formen, Fantasie</h3>
+                </div>
+                <button class="like" aria-label="Gefällt mir">♡</button>
+            </div>
+        </article>
+
+        <article class="photo-card" data-category="ausflug">
+            <button class="photo-open">
+                <img src="images/WhatsApp Image 2026-11-10 at 10.35.52 AM (7).jpeg " alt="Ein kleines Abenteuer">
+            </button>
+            <div class="photo-info">
+                <div>
+                    <small>AUSFLÜGE</small>
+                    <h3>Auf Entdeckungstour</h3>
+                </div>
+                <button class="like" aria-label="Gefällt mir">♡</button>
+            </div>
+        </article>
+
+    </div>
+
+    <p class="gallery-note">
+        ♡ Noch mehr schöne Erinnerungen folgen bald!
+    </p>
+</section>
+
+<section class="about" id="ueber-uns">
+    <div class="about-heart">♡</div>
+    <div>
+        <span class="eyebrow">DAS SIND WIR</span>
+        <h2>Gemeinsam lernen.<br><em>Gemeinsam wachsen.</em></h2>
+        <p>
+            Jeder Tag bringt etwas Neues – und zusammen
+            machen wir daraus unvergessliche Erinnerungen.
+        </p>
+    </div>
+    <span class="about-flower">✿</span>
+</section>
+
+<footer>
+    <span>Mit ganz viel Liebe gesammelt ♥</span>
+    <span>Unsere Klassengalerie · Made with ♥ by Donia</span>
+</footer>
+
+<div class="lightbox" hidden>
+    <button class="close" aria-label="Schließen">×</button>
+    <button class="previous" aria-label="Vorheriges Foto">‹</button>
+    <img src="" alt="Vergrößertes Foto">
+    <button class="next" aria-label="Nächstes Foto">›</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
